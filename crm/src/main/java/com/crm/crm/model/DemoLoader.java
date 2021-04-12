@@ -1,9 +1,8 @@
 package com.crm.crm.model;
 
-import org.springframework.beans.factory.annotation.*;
-import org.springframework.boot.*;
-import org.springframework.stereotype.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 @Component
 public class DemoLoader implements CommandLineRunner{
